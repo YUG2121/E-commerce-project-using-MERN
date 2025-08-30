@@ -1,9 +1,9 @@
 import axios from 'axios'
 import React, { useEffect } from 'react'
 import { useState } from 'react'
-import { backendurl, currency } from '../App'
+import { backendurl, currency } from '../App.jsx'
 import { toast } from 'react-toastify'
-import { assets } from '../assets/assets'
+import { assets } from '../assets/assets.js'
 
 const List = ({token}) => {
 
