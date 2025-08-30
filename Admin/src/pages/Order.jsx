@@ -25,7 +25,8 @@ const Order = ({ token }) => {
         console.log(response.data);
         
       if (response.data.success) {
-        setOrder(response.data.order);
+       
+        setOrder(response.data.order.reverse());
       } else {
         toast.error(response.data.message);
       }
